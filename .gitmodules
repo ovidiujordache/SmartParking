@@ -1,1 +1,7 @@
 
+[submodule "HardwareSmartParking"]
+	path = HardwareSmartParking
+	url = https://github.com/ovidiujordache/HardwareSmartParking.git
+[submodule "TestingSmartParking"]
+	path = TestingSmartParking
+	url = https://github.com/ovidiujordache/TestingSmartParking.git
