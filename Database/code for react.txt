@@ -1,0 +1,7 @@
+mkdir my-mern-app
+cd my-mern-app
+npm init -y
+
+npm install express mongoose cors
+
+touch server.js
