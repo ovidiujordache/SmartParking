@@ -1,2 +1,0 @@
-Description of what goes into this folder
-Enumerate/List functionality that can go into this folder
