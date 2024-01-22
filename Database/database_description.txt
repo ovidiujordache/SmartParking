@@ -1,0 +1,10 @@
+database name: SmartParking
+ tables: camera_Image
+	car
+	parking_lot
+	parking_space
+
+table car: object definition
+	_id:ObjectID('')
+	car_id:'',
+	licence_plate:'01d-lamsdsa'
