@@ -1,0 +1,29 @@
+database name: SmartParking
+
+tables: camera_Image
+	car
+	parking_lot
+	parking_space
+
+
+car:		_id:ObjectID('')
+		car_id:'',
+		licence_plate:'01d-lamsdsa'
+
+parking_space:	_id:Objectid:''
+		space_id:""
+		lot_id:""
+		status:""
+		gps_latitude:""
+		gps_longitude:""
+		space_type:""
+
+parking_space:	_id:Objectid:''
+		lot_id:""
+		capacity:""
+		location:""
+
+camera_Image:	_id:Objectid:''
+		timestamp:""
+		motion_detected:""
+
