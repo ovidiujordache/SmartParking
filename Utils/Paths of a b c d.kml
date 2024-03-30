@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>Paths of a b c d</name>
+<Schema id="schema">
+<gx:SimpleArrayField name="speed" type="float">
+<displayName>Speed</displayName>
+</gx:SimpleArrayField>
+</Schema>
+<Folder id="waypoints">
+<name>Waypoints</name>
+<Placemark>
+<name>End d park</name>
+<TimeStamp><when>2024-01-25T12:15:30.960Z</when></TimeStamp>
+<Point>
+<coordinates>-6.392660,53.982176,-73.217407</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>End c park</name>
+<TimeStamp><when>2024-01-25T12:16:36.912Z</when></TimeStamp>
+<Point>
+<coordinates>-6.391541,53.982497,-75.600739</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Start a park outside </name>
+<TimeStamp><when>2024-01-25T12:17:31.030Z</when></TimeStamp>
+<Point>
+<coordinates>-6.391888,53.982800,-74.908463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>End a outside</name>
+<TimeStamp><when>2024-01-25T12:18:36.030Z</when></TimeStamp>
+<Point>
+<coordinates>-6.391908,53.982855,-74.813347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Exit a</name>
+<TimeStamp><when>2024-01-25T12:19:20.719Z</when></TimeStamp>
+<Point>
+<coordinates>-6.392948,53.982551,-74.337730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Enter b c d </name>
+<TimeStamp><when>2024-01-25T12:19:34.023Z</when></TimeStamp>
+<Point>
+<coordinates>-6.392948,53.982551,-74.554398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>End d again</name>
+<TimeStamp><when>2024-01-25T12:20:52.664Z</when></TimeStamp>
+<Point>
+<coordinates>-6.392605,53.982182,-73.375946</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="tracks">
+<name>Tracks</name>
+<Placemark>
+<name>Paths of  a b c d</name>
+<ExtendedData>
+<Data name="Profile"><value><![CDATA[Running (1.0 m | 5 s | 100.0 m)]]></value></Data>
+<Data name="Step count"><value><![CDATA[0]]></value></Data>
+</ExtendedData>
+<gx:MultiTrack>
+<gx:Track>
+<when>2024-01-25T12:13:42.531Z</when>
+<gx:coord>-6.393323 53.982713 -74.654808</gx:coord>
+<when>2024-01-25T12:13:50.922Z</when>
+<gx:coord>-6.392980 53.982637 -73.381233</gx:coord>
+<when>2024-01-25T12:13:55.953Z</when>
+<gx:coord>-6.392897 53.982517 -74.052368</gx:coord>
+<when>2024-01-25T12:14:00.991Z</when>
+<gx:coord>-6.392712 53.982478 -74.179199</gx:coord>
+<when>2024-01-25T12:14:06.013Z</when>
+<gx:coord>-6.392399 53.982539 -73.492203</gx:coord>
+<when>2024-01-25T12:14:11.052Z</when>
+<gx:coord>-6.392062 53.982603 -73.930824</gx:coord>
+<when>2024-01-25T12:14:16.082Z</when>
+<gx:coord>-6.391783 53.982653 -74.580826</gx:coord>
+<when>2024-01-25T12:14:21.111Z</when>
+<gx:coord>-6.391653 53.982680 -75.278381</gx:coord>
+<when>2024-01-25T12:14:26.149Z</when>
+<gx:coord>-6.391461 53.982641 -73.957245</gx:coord>
+<when>2024-01-25T12:14:31.178Z</when>
+<gx:coord>-6.391343 53.982512 -74.300743</gx:coord>
+<when>2024-01-25T12:14:36.208Z</when>
+<gx:coord>-6.391450 53.982415 -73.481636</gx:coord>
+<when>2024-01-25T12:14:41.231Z</when>
+<gx:coord>-6.391722 53.982357 -73.798714</gx:coord>
+<when>2024-01-25T12:14:46.258Z</when>
+<gx:coord>-6.392008 53.982303 -73.788139</gx:coord>
+<when>2024-01-25T12:14:51.291Z</when>
+<gx:coord>-6.392280 53.982251 -73.428795</gx:coord>
+<when>2024-01-25T12:14:56.327Z</when>
+<gx:coord>-6.392556 53.982195 -73.249115</gx:coord>
+<when>2024-01-25T12:15:03.564Z</when>
+<gx:coord>-6.392660 53.982176 -73.883263</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>2.360000</gx:value>
+<gx:value>1.069000</gx:value>
+<gx:value>4.170000</gx:value>
+<gx:value>4.319000</gx:value>
+<gx:value>1.990000</gx:value>
+<gx:value>1.000000</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+<gx:Track>
+<when>2024-01-25T12:15:48.685Z</when>
+<gx:coord>-6.392714 53.982168 -72.646675</gx:coord>
+<when>2024-01-25T12:15:53.757Z</when>
+<gx:coord>-6.392826 53.982224 -73.608467</gx:coord>
+<when>2024-01-25T12:16:03.785Z</when>
+<gx:coord>-6.392518 53.982366 -74.506836</gx:coord>
+<when>2024-01-25T12:16:08.943Z</when>
+<gx:coord>-6.392213 53.982424 -76.319443</gx:coord>
+<when>2024-01-25T12:16:18.865Z</when>
+<gx:coord>-6.391656 53.982523 -74.216187</gx:coord>
+<when>2024-01-25T12:16:23.884Z</when>
+<gx:coord>-6.391541 53.982497 -73.994240</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>0.110000</gx:value>
+<gx:value>0.979000</gx:value>
+<gx:value>2.320000</gx:value>
+<gx:value>3.460000</gx:value>
+<gx:value>3.120000</gx:value>
+<gx:value>1.390000</gx:value>
+<gx:value>0.669000</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+<gx:Track>
+<when>2024-01-25T12:16:44.762Z</when>
+<gx:coord>-6.391526 53.982479 -73.724724</gx:coord>
+<when>2024-01-25T12:16:50.050Z</when>
+<gx:coord>-6.391511 53.982464 -74.850334</gx:coord>
+<when>2024-01-25T12:16:55.089Z</when>
+<gx:coord>-6.391393 53.982465 -74.866188</gx:coord>
+<when>2024-01-25T12:17:00.119Z</when>
+<gx:coord>-6.391484 53.982613 -74.987732</gx:coord>
+<when>2024-01-25T12:17:05.149Z</when>
+<gx:coord>-6.391682 53.982730 -75.225540</gx:coord>
+<when>2024-01-25T12:17:10.189Z</when>
+<gx:coord>-6.391769 53.982794 -75.003586</gx:coord>
+<when>2024-01-25T12:17:15.205Z</when>
+<gx:coord>-6.391882 53.982801 -75.278381</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>1.890000</gx:value>
+<gx:value>3.449000</gx:value>
+<gx:value>4.370000</gx:value>
+<gx:value>2.710000</gx:value>
+<gx:value>1.719000</gx:value>
+<gx:value>1.810000</gx:value>
+<gx:value>3.230000</gx:value>
+<gx:value>4.160000</gx:value>
+<gx:value>4.460000</gx:value>
+<gx:value>1.920000</gx:value>
+<gx:value>0.010000</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+<gx:Track>
+<when>2024-01-25T12:17:36.387Z</when>
+<gx:coord>-6.391910 53.982795 -72.879196</gx:coord>
+<when>2024-01-25T12:17:42.384Z</when>
+<gx:coord>-6.392174 53.982738 -75.579605</gx:coord>
+<when>2024-01-25T12:17:47.408Z</when>
+<gx:coord>-6.392475 53.982680 -75.579605</gx:coord>
+<when>2024-01-25T12:17:52.434Z</when>
+<gx:coord>-6.392788 53.982621 -75.447487</gx:coord>
+<when>2024-01-25T12:17:57.472Z</when>
+<gx:coord>-6.392908 53.982695 -75.072289</gx:coord>
+<when>2024-01-25T12:18:02.502Z</when>
+<gx:coord>-6.392878 53.982746 -75.067001</gx:coord>
+<when>2024-01-25T12:18:07.536Z</when>
+<gx:coord>-6.392708 53.982781 -75.088142</gx:coord>
+<when>2024-01-25T12:18:12.592Z</when>
+<gx:coord>-6.392407 53.982845 -75.109276</gx:coord>
+<when>2024-01-25T12:18:17.632Z</when>
+<gx:coord>-6.392109 53.982903 -75.109276</gx:coord>
+<when>2024-01-25T12:18:22.643Z</when>
+<gx:coord>-6.391917 53.982873 -74.919037</gx:coord>
+<when>2024-01-25T12:18:36.065Z</when>
+<gx:coord>-6.391908 53.982855 -74.813347</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>1.290000</gx:value>
+<gx:value>3.689000</gx:value>
+<gx:value>4.640000</gx:value>
+<gx:value>4.360000</gx:value>
+<gx:value>0.969000</gx:value>
+<gx:value>1.709000</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+<gx:Track>
+<when>2024-01-25T12:18:43.765Z</when>
+<gx:coord>-6.391902 53.982842 -74.453995</gx:coord>
+<when>2024-01-25T12:18:48.797Z</when>
+<gx:coord>-6.392025 53.982766 -74.950745</gx:coord>
+<when>2024-01-25T12:18:53.828Z</when>
+<gx:coord>-6.392354 53.982704 -74.950745</gx:coord>
+<when>2024-01-25T12:18:58.867Z</when>
+<gx:coord>-6.392711 53.982636 -75.193832</gx:coord>
+<when>2024-01-25T12:19:03.895Z</when>
+<gx:coord>-6.392867 53.982609 -74.586105</gx:coord>
+<when>2024-01-25T12:19:08.932Z</when>
+<gx:coord>-6.392953 53.982569 -74.401146</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>0.179000</gx:value>
+<gx:value>1.630000</gx:value>
+<gx:value>2.929000</gx:value>
+<gx:value>4.160000</gx:value>
+<gx:value>4.480000</gx:value>
+<gx:value>5.020000</gx:value>
+<gx:value>4.880000</gx:value>
+<gx:value>2.450000</gx:value>
+<gx:value>3.389000</gx:value>
+<gx:value>3.600000</gx:value>
+<gx:value>3.720000</gx:value>
+<gx:value>3.570000</gx:value>
+<gx:value>2.470000</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+<gx:Track>
+<when>2024-01-25T12:19:35.257Z</when>
+<gx:coord>-6.392945 53.982547 -74.823914</gx:coord>
+<when>2024-01-25T12:19:40.280Z</when>
+<gx:coord>-6.392927 53.982521 -74.247894</gx:coord>
+<when>2024-01-25T12:19:45.285Z</when>
+<gx:coord>-6.392777 53.982470 -74.364159</gx:coord>
+<when>2024-01-25T12:19:50.315Z</when>
+<gx:coord>-6.392512 53.982522 -74.549118</gx:coord>
+<when>2024-01-25T12:19:55.338Z</when>
+<gx:coord>-6.392183 53.982583 -74.802773</gx:coord>
+<when>2024-01-25T12:20:00.420Z</when>
+<gx:coord>-6.391852 53.982640 -74.802773</gx:coord>
+<when>2024-01-25T12:20:10.338Z</when>
+<gx:coord>-6.391423 53.982600 -74.110497</gx:coord>
+<when>2024-01-25T12:20:15.363Z</when>
+<gx:coord>-6.391364 53.982445 -74.321884</gx:coord>
+<when>2024-01-25T12:20:20.393Z</when>
+<gx:coord>-6.391587 53.982384 -73.999519</gx:coord>
+<when>2024-01-25T12:20:25.440Z</when>
+<gx:coord>-6.391824 53.982337 -73.703590</gx:coord>
+<when>2024-01-25T12:20:30.463Z</when>
+<gx:coord>-6.392099 53.982283 -73.619034</gx:coord>
+<when>2024-01-25T12:20:35.484Z</when>
+<gx:coord>-6.392370 53.982231 -74.115784</gx:coord>
+<when>2024-01-25T12:20:40.525Z</when>
+<gx:coord>-6.392605 53.982182 -74.343018</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>0.179000</gx:value>
+<gx:value>1.630000</gx:value>
+<gx:value>2.929000</gx:value>
+<gx:value>4.160000</gx:value>
+<gx:value>4.480000</gx:value>
+<gx:value>5.020000</gx:value>
+<gx:value>4.880000</gx:value>
+<gx:value>2.450000</gx:value>
+<gx:value>3.389000</gx:value>
+<gx:value>3.600000</gx:value>
+<gx:value>3.720000</gx:value>
+<gx:value>3.570000</gx:value>
+<gx:value>2.470000</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+</gx:MultiTrack>
+</Placemark>
+</Folder>
+</Document>
+</kml>

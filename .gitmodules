@@ -4,3 +4,6 @@
 [submodule "TestingSmartParking"]
 	path = TestingSmartParking
 	url = https://github.com/ovidiujordache/TestingSmartParking.git
+[submodule "Frontend/ParkitRNApp"]
+	path = Frontend/ParkitRNApp
+	url = https://github.com/ovidiujordache/ParkitRNApp.git
