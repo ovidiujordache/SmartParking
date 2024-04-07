@@ -1,0 +1,52 @@
+.table-container{
+  padding-top: 1%;
+  max-height: 100vh;
+  background-color: grey;
+  text-align: center;
+}
+
+.table-container label{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tableCenter {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table {
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+
+  table, th, td {
+    padding: 1rem;
+  }
+
+  th, td{
+    text-align: center;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #787878;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .table-wrapper {
+    max-height: 100vh; /* Set a max height for the table */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-bottom: 10%;
+  }
