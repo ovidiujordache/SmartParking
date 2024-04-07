@@ -1,0 +1,166 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: rgb(24,20,20);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Roboto';
+  }
+  
+  .navbar {
+    width: 100%;
+    padding-left: 40px;
+    height: 60px;
+    color: rgb(49,185,206);
+    background: rgb(19,18,18);
+  }
+  
+  .container {
+    width: 960px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center content inside the container */
+    flex-direction: column;
+}
+
+ 
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .image {
+      width: 60%; /* Set image width to 50% on screens smaller than 768px (typical mobile devices) */
+    }
+
+    .react-select-container{
+      width: 80%;
+    }
+
+}
+
+@media (min-width: 769px) {
+  .image {
+      width: 20%; /* Set image width to 50% on screens larger than 768px (desktop browser) */
+  }
+}
+  
+  .parking-area {
+    margin: auto;
+  }
+
+    
+  /* .parking-area {
+    margin: auto;
+    max-width: 1215px;
+    height: 100vh;
+    background: grey;
+  } */
+
+  .main {
+	width: 100%; /* percentage fixes the X axis white space when zoom out */
+	height: 100vh; /* this is still an issue where you see white space when zoom out in the Y axis */
+	overflow: scroll; /* needed for safari to show the x axis scrollbar */
+  background: grey;
+}
+
+/* .main .section {
+	width: 100%;
+	height: 200vh;
+	transform-origin: 0 0;
+} */
+.cpMap { /*SVG*/
+  background: grey;
+}
+
+rect {
+  stroke:white;
+  stroke-width: 2;
+}
+
+rect:active{
+  filter: brightness(50%);
+}
+
+.popup-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff; /* White background for the content */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift */
+  font-weight: bold;
+  text-align: center;
+}
+
+.popup-content p {
+  margin-bottom: 10px;
+}
+
+.popup-content button {
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+
+.circle-button {
+  position: fixed;
+  bottom: 5%; /* Adjust the distance from the bottom as needed */
+  left: 50%; /* Align the button horizontally at 50% of its container */
+  width: 50px; /* Set the width and height to be the same for a circle */
+  transform: translateX(-50%); /* Move the button horizontally by half of its width to center it */
+  height: 50px;
+  border: 2px solid black;
+  border-color:white;
+  border-radius: 50%; /* Border radius of 50% creates a circle */
+  background-color: red; /* Example background color */
+  color: black; /* Example text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 30px; /* Example font size */
+  font-weight: 900;
+  box-shadow: 5px 5px 5px black;
+}
+
+.circle-button:active{
+  filter: brightness(50%);
+}
+
+.search-button{
+  box-shadow: 5px 5px 5px black;
+}
+
+.search-button:active{
+  filter: brightness(50%);
+}
+
+.popup-content .closeButton{
+  position: absolute;
+  top: 1%; /* Adjust the top position as needed */
+  right: 2%; /* Adjust the right position as needed */
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background: none; /* Ensures no background */
+  border: none; /* Removes the border */
+  font-size: 24px; /* Adjust the size as needed */
+  outline: none; /* Removes the outline to ensure it doesn't show when focused/clicked */
+}
