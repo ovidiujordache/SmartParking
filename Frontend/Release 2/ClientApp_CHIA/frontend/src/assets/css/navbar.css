@@ -1,0 +1,41 @@
+.navbarT {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 1000;
+    display: flex; /* Add display: flex */
+    justify-content: center; /* Center align items horizontally */
+  }
+  
+  .navbarT-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Change display to flex */
+  }
+  
+  .navT-item {
+    margin-right: 30px; /* Adjust margin between nav items */
+  }
+  
+  .navT-item:last-child {
+    margin-right: 0; /* Remove margin from the last nav item */
+  }
+  
+  .navT-item a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .navT-item a:hover {
+    background: #ddd;
+    color: black;
+  }
+  

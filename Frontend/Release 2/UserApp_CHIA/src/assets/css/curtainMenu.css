@@ -1,0 +1,157 @@
+.overlay {
+    width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: height 0.5s; /* Change the transition property to height */
+  height: 0; /* Initially set height to 0 */
+  }
+
+  .saveMenu .overlay {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0; /* Position at the bottom of the viewport */
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: height 0.5s; /* Change the transition property to height */
+    height: 0; /* Initially set height to 0 */
+  }
+  
+  .overlay.open {
+    height: 100%; /* Set height to 100% to expand */
+  }
+
+  .saveMenu .overlay.open {
+    height: 100%; /* Set height to 100% to expand */
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 8%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+
+  .saveMenu .overlay-content {
+    position: relative;
+    bottom: 0; /* Position at the bottom of the overlay */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px; /* 30px bottom margin */
+  }
+
+  .overlay.open .overlay-content {
+    opacity: 1; /* Change opacity to 1 when overlay is open */
+  }
+
+  .saveMenu .overlay.open .overlay-content {
+    opacity: 1; /* Change opacity to 1 when overlay is open */
+  }
+  
+  .overlay-content p{
+    padding: 8px;
+    padding-left: 10%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .saveMenu .overlay-content p{
+    padding: 8px;
+    padding-top: 10%;
+    padding-left: 20%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 60px;
+    color: white;
+  }
+
+  .saveMenu .closebtn {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 60px;
+    color: white;
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 1%;
+      right: 1%;
+    }
+  }
+
+  .openBtn{
+    position: absolute;
+  top: 1%; /* Adjust the top position as needed */
+  right: 2%; /* Adjust the right position as needed */
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  }
+
+  
+  .save-openBtn{
+  position: absolute;
+  bottom: 3%; /* Adjust the top position as needed */
+  right: 2%;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  }
+
+  .nearest-openBtn{
+    position: absolute;
+    bottom: 3%; /* Adjust the top position as needed */
+    left: 2%;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    }
+
+  .save-openBtn img{
+    width: 60px;
+    height: 60px;
+    filter: invert(77%) sepia(48%) saturate(648%) hue-rotate(173deg) brightness(94%) contrast(109%);
+  }
+
+  .nearest-openBtn img{
+    width: 60px;
+    height: 60px;
+    filter: invert(73%) sepia(40%) saturate(4243%) hue-rotate(359deg) brightness(100%) contrast(106%);
+  }
+
+  .overCimg{
+    width: 50px;
+    height: 55px;
+    margin-top: -10px;
+    filter: invert(77%) sepia(48%) saturate(648%) hue-rotate(173deg) brightness(94%) contrast(109%);
+  }
+
+  .overCimg2{
+    width: 50px;
+    height: 55px;
+    margin-top: -10px;
+    filter: invert(73%) sepia(40%) saturate(4243%) hue-rotate(359deg) brightness(100%) contrast(106%);
+  }
